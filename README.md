@@ -1,4 +1,4 @@
-# Optimization-of-Greybox-Estimater-for-Quadrotor-Dynamics
+# Optimization of Greybox Estimater for Quadrotor-Dynamics
 
 # Overview
 This repository contains a MATLAB implementation of a system identification and estimation project. The goal of this project is to estimate the parameters of a dynamic system using grey-box modeling and optimize the excitation signal to reduce parametric uncertainty. The model used is a linearized and decoupled at low speed, the derivation of which is not covered in this work. Feel free to use any model and adjusting the requirements/inputs.
