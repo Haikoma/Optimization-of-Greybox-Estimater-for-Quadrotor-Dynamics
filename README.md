@@ -4,6 +4,7 @@
 This repository contains a MATLAB implementation of a system identification and estimation project. The goal of this project is to estimate the parameters of a dynamic system using grey-box modeling and optimize the excitation signal to reduce parametric uncertainty. The model used is a linearized and decoupled at low speed, the derivation of which is not covered in this work. Feel free to use any model and adjusting the requirements/inputs.
 
 # Tools Used
+MATLAB, Greybox Estimation, Signal processing, Signal Optimization, Fmincon
 
 # Project Structure
 The project is organized into two main tasks:
@@ -17,7 +18,7 @@ QUADROTOR_GREYBOX_MODEL_ESTIMATION.mlx: MATLAB script containing the implementat
 
 model2.m: MATLAB function defining the dynamic system model.
 
-Optimization1.m, Optimization2.m, Optimization3.m: MATLAB functions defining the objective functions for optimizing the excitation signals for the three classes.
+Optimization1.m, Optimization2.m, Optimization3.m: MATLAB functions defining the objective functions for optimizing the excitation signals for the three classes using Fmincon().
 These functions require a simulink or other with the excitation signal as the input and the outputs of your model.
 
 # Requirements
