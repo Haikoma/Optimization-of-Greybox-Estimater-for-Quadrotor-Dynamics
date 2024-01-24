@@ -25,6 +25,6 @@ These functions require a simulink or other with the excitation signal as the in
 MATLAB R20XX or later.
 
 # Usage
-Open and run the estimation_script.m file in MATLAB.
+Open and run the mlx file in MATLAB.
 
 The results of the estimation and optimization tasks are visualized in the generated plots. Detailed parameter values, uncertainties, and comparisons with the actual system are provided within the MATLAB script.
